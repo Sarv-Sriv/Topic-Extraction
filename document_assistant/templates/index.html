@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Offline Document Assistant</title>
+</head>
+<body>
+
+    <h2>Upload Documents</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="files" multiple>
+        <button type="submit">Upload</button>
+    </form>
+
+    <hr>
+
+    <h2>Ask Question</h2>
+
+    <form method="POST">
+        <input type="text" name="question" placeholder="Enter topic" style="width:400px;">
+        <input type="number" name="word_count" placeholder="Word count">
+        <button type="submit">Ask</button>
+    </form>
+
+    <hr>
+
+    <h2>Answer</h2>
+    <pre>{{ answer }}</pre>
+
+</body>
+</html>

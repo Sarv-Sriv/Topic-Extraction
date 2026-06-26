@@ -1,3 +1,5 @@
+switch to code mode.
+
 document_assistant
     |-  __pycache__/
     |-  data/
